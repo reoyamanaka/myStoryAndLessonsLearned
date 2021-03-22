@@ -22,6 +22,14 @@ nav {
     justify-content: space-between;
     /* background: yellow; */
 }
+nav .logoName {
+    display: flex;
+    align-items: center;
+}
+nav img {
+    border-radius: 10px;
+    margin-right: 10px;
+}
 nav h1 {
     font-size: 2em;
     margin: 1em auto;
@@ -53,3 +61,14 @@ color: #4c8bf5;
 .content p {
     margin: 0.5em 0;
 }
+
+/* posts section start */
+.posts {
+    margin: 2rem auto;
+    /* background: lightgrey; */
+}
+.posts p {
+    margin: 2em 0;
+}
+
+/* posts section end */
