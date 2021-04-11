@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: "Roboto";
+}
+a {
+    text-decoration: none;
+}
+.mainContainer {
+    width: 70%;
+    margin: auto;
+    /* background: lightgrey; */
+}
+/* nav bar start */
+nav {
+    margin: 2em auto 0.5em auto;
+    display: flex;
+    justify-content: space-between;
+    /* background: yellow; */
+}
+nav .logoName {
+    display: flex;
+    align-items: center;
+}
+nav img {
+    border-radius: 10px;
+    margin-right: 10px;
+}
+nav h1 {
+    font-size: 2em;
+    margin: 1em auto;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    margin: auto 1em;
+}
+nav ul li a {
+    color: black;
+    font-weight: 800;
+}
+
+/* nav bar end */
+
+.content p {
+    font-size: 22px;
+    line-height: 1.5;
+}
+.content h1 {
+    margin: 0 auto 1em auto;
+}
+.content a {
+color: #4c8bf5;
+}
+.content p {
+    margin: 0.5em 0;
+}
+
+/* posts section start */
+.posts {
+    margin: 2rem auto;
+    /* background: lightgrey; */
+}
+.posts p {
+    margin: 2em 0;
+}
+
+/* posts section end */
