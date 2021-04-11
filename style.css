@@ -27,37 +27,7 @@ a {
 }
 
 
-/* nav bar start */
-/* nav {
-    margin: 2em auto 0.5em auto;
-    display: flex;
-    justify-content: space-between;
-} */
-/* nav .logoName {
-    display: flex;
-    align-items: center;
-}
-nav img {
-    border-radius: 10px;
-    margin-right: 10px;
-}
-nav h1 {
-    font-size: 2em;
-    margin: 1em auto;
-}
-nav ul {
-    display: flex;
-}
-nav ul li {
-    list-style: none;
-    margin: auto 1em;
-}
-nav ul li a {
-    color: black;
-    font-weight: 800;
-} */
-
-
+/* navbar start */
 
 .navbar {
     display: flex;
@@ -142,8 +112,12 @@ nav ul li a {
     .navbarLinks ul li a {
         padding: 0.5rem 1rem;
     }
+    .navbarLinks ul li a:hover {
+        color: #fff;
+    }
     .navbarLinks.active {
         display: flex;
+        cursor: pointer;
     }
 }
 @media(max-width: 590px) {
@@ -195,4 +169,43 @@ color: #4c8bf5;
 
 /* posts section end */
 
+/* Subscription start */
+.subscription {
+    display: block;
+    text-align: center;
+    background: #F9F9F9;
+    padding: 1em;
+    margin-bottom: 3em;
+}
+#email {
+    width: 80%;
+    font-size: 1.25rem;
+    padding: 0.25rem;
+}
+#subscribeBtn {
+    width: 80%;
+    margin: 1rem auto;
+    background-color: #4285F4;
+    color: #fff;
+    height: 2rem;
+    font-size: 1.25rem;
+}
+.subscription h2, #email {
+    margin-top: 1rem;
+}
 
+@media(max-width: 720px) {
+    #email, #subscribeBtn {
+        width: 90%;
+    }
+}
+
+/* Subscription end */
+
+/* miscellaneous start */
+
+hr {
+    margin: 3em auto;
+    color: lightgrey;
+}
+/* miscellaneous end */
