@@ -72,6 +72,9 @@ a {
 .navbarLinks li:hover {
     background-color: #555;
 }
+.navbarLinks ul li a:hover {
+    color: #fff;
+}
 .toggleButton {
     position: absolute;
     top: 1.25rem;
@@ -111,9 +114,6 @@ a {
     }
     .navbarLinks ul li a {
         padding: 0.5rem 1rem;
-    }
-    .navbarLinks ul li a:hover {
-        color: #fff;
     }
     .navbarLinks.active {
         display: flex;
